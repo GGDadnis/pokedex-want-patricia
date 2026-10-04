@@ -184,44 +184,27 @@
 <div class="grid" id="grid"></div>
 
 <footer>
-  v1.4 - imagens: official artwork via <a href="https://github.com/PokeAPI/sprites" target="_blank">PokeAPI/sprites</a> (GitHub) &middot; dados: <a href="https://pokeapi.co" target="_blank">pokeapi.co</a>
+  v1.5 - imagens: official artwork via <a href="https://github.com/PokeAPI/sprites" target="_blank">PokeAPI/sprites</a> (GitHub) &middot; dados: <a href="https://pokeapi.co" target="_blank">pokeapi.co</a>
 </footer>
 
 <script>
 const pokemons = [
 ["003","Venusaur"],["006","Charizard"],["007","Squirtle"],["008","Wartortle"],["009","Blastoise"],
-["018","Pidgeot"],["034","Nidoking"],["049","Venomoth"],["053","Persian"],["066","Machop"],
-["068","Machamp"],["072","Tentacool"],["085","Dodrio"],["106","Hitmonlee"],["135","Jolteon"],
+["018","Pidgeot"],["034","Nidoking"],["049","Venomoth"],["068","Machamp"],["106","Hitmonlee"],
 ["138","Omanyte"],["139","Omastar"],["140","Kabuto"],["141","Kabutops"],["142","Aerodactyl"],
-["149","Dragonite"],["151","Mew"],["160","Feraligatr"],["166","Ledian"],["176","Togetic"],
-["182","Bellossom"],["188","Skiploom"],["189","Jumpluff"],["195","Quagsire"],["202","Wobbuffet"],
-["212","Scizor"],["238","Smoochum"],["239","Elekid"],["240","Magby"],["253","Grovyle"],
-["254","Sceptile"],["257","Blaziken"],["260","Swampert"],["282","Gardevoir"],["289","Slaking"],
-["294","Loudred"],["298","Azurill"],["304","Aron"],["316","Gulpin"],["317","Swalot"],
-["319","Sharpedo"],["327","Spinda"],["332","Cacturne"],["345","Lileep"],["346","Cradily"],
-["347","Anorith"],["360","Wynaut"],["362","Glalie"],["365","Walrein"],["379","Registeel"],
-["380","Latias"],["385","Jirachi"],["387","Turtwig"],["388","Grotle"],["389","Torterra"],
-["392","Infernape"],["395","Empoleon"],["409","Rampardos"],["414","Mothim"],["416","Vespiquen"],
-["431","Glameow"],["438","Bonsly"],["440","Happiny"],["445","Garchomp"],["446","Munchlax"],
-["466","Electivire"],["469","Yanmega"],["481","Mesprit"],["482","Azelf"],["487","Giratina"],
-["490","Manaphy"],["493","Arceus"],["503","Samurott"],["512","Simisage"],["518","Musharna"],
-["530","Excadrill"],["545","Scolipede"],["563","Cofagrigus"],["567","Archeops"],["575","Gothorita"],
-["576","Gothitelle"],["585","Deerling"],["586","Sawsbuck"],["591","Amoonguss"],["592","Frillish"],
-["593","Jellicent"],["594","Alomomola"],["596","Galvantula"],["604","Eelektross"],["605","Elgyem"],
-["612","Haxorus"],["613","Cubchoo"],["614","Beartic"],["638","Cobalion"],["639","Terrakion"],
-["642","Thundurus"],["646","Kyurem"],["658","Greninja"],["671","Florges"],["672","Skiddo"],
-["700","Sylveon"],["711","Gourgeist"],["718","Zygarde"],["727","Incineroar"],["747","Mareanie"],
-["748","Toxapex"],["763","Tsareena"],["786","Tapu Lele"],["787","Tapu Bulu"],["793","Nihilego"],
-["794","Buzzwole"],["795","Pheromosa"],["796","Xurkitree"],["797","Celesteela"],["798","Kartana"],
-["799","Guzzlord"],["800","Necrozma"],["804","Naganadel"],["806","Blacephalon"],["855","Polteageist"],
-["858","Hatterene"],["864","Cursola"],["867","Runerigus"],["882","Dracovish"],["883","Arctovish"],
-["892","Urshifu"],["894","Regieleki"],["895","Regidrago"],["898","Calyrex"],["899","Wyrdeer"],
-["900","Kleavor"],["902","Basculegion"],["903","Sneasler"],["904","Overqwil"],["908","Meowscarada"],
-["930","Arboliva"],["952","Scovillain"],["961","Wugtrio"],["968","Orthworm"],["973","Flamigo"],
-["977","Dondozo"],["980","Clodsire"],["985","Scream Tail"],["986","Brute Bonnet"],["989","Sandy Shocks"],
-["990","Iron Treads"],["992","Iron Hands"],["994","Iron Moth"],["995","Iron Thorns"],["1001","Wo-Chien"],
-["1003","Ting-Lu"],["1006","Iron Valiant"],["1010","Iron Leaves"],["1019","Hydrapple"],["1021","Raging Bolt"],
-["1022","Iron Boulder"]
+["149","Dragonite"],["151","Mew"],["160","Feraligatr"],["182","Bellossom"],["212","Scizor"],
+["238","Smoochum"],["253","Grovyle"],["254","Sceptile"],["260","Swampert"],["282","Gardevoir"],
+["298","Azurill"],["360","Wynaut"],["380","Latias"],["392","Infernape"],["395","Empoleon"],
+["409","Rampardos"],["414","Mothim"],["416","Vespiquen"],["438","Bonsly"],["440","Happiny"],
+["445","Garchomp"],["446","Munchlax"],["487","Giratina"],["493","Arceus"],["567","Archeops"],
+["576","Gothitelle"],["593","Jellicent"],["646","Kyurem"],["658","Greninja"],["700","Sylveon"],
+["727","Incineroar"],["787","Tapu Bulu"],["793","Nihilego"],["794","Buzzwole"],["795","Pheromosa"],
+["796","Xurkitree"],["797","Celesteela"],["798","Kartana"],["799","Guzzlord"],["800","Necrozma"],
+["804","Naganadel"],["806","Blacephalon"],["858","Hatterene"],["864","Cursola"],["867","Runerigus"],
+["882","Dracovish"],["883","Arctovish"],["892","Urshifu"],["894","Regieleki"],["895","Regidrago"],
+["898","Calyrex"],["899","Wyrdeer"],["900","Kleavor"],["902","Basculegion"],["903","Sneasler"],
+["904","Overqwil"],["908","Meowscarada"],["980","Clodsire"],["986","Brute Bonnet"],["989","Sandy Shocks"],
+["990","Iron Treads"],["994","Iron Moth"],["1010","Iron Leaves"],["1021","Raging Bolt"]
 ];
 
 const grid = document.getElementById('grid');
